@@ -1,0 +1,14 @@
+{
+    "name": "Frutiger Aero Practice",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "postCreateCommand": "npm install live-server -g",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}
