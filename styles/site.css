@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3c8dde, #004089); /* Vibrant blue gradient */
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff88, #d4e9ff);
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    margin-top: 100px; /* Push below navbar */
+    background: linear-gradient(to bottom, #ffffff88, #d4e9ff);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+/* Window Controls */
+.window-controls {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.red {
+    background: radial-gradient(circle, #ff5f57, #e44a40);
+}
+
+.yellow {
+    background: radial-gradient(circle, #ffbd2f, #e6a826);
+}
+
+.green {
+    background: radial-gradient(circle, #28c840, #20a735);
+}
+
+/* Text Content */
+h2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
